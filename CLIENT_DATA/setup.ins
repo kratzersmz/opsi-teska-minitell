@@ -1,0 +1,130 @@
+; Copyright (c) uib gmbh (www.uib.de)
+; This sourcecode is owned by uib
+; and published under the Terms of the General Public License.
+; credits: http://www.opsi.org/en/credits/
+
+[Actions]
+requiredWinstVersion >= "4.11.2.6"
+
+DefVar $MsiId$
+DefVar $UninstallProgram$
+DefVar $LogDir$
+DefVar $ProductId$  
+DefVar $MinimumSpace$
+DefVar $InstallDir$
+DefVar $ExitCode$
+DefVar $LicenseRequired$
+DefVar $LicenseKey$
+DefVar $LicensePool$
+DefVar $InstPrg$
+DefVar $TmpPath$
+
+Set $LogDir$ = "%SystemDrive%\tmp"
+
+; ----------------------------------------------------------------
+; - Please edit the following values                             -
+; ----------------------------------------------------------------
+Set $ProductId$       = "MiniTell Schreibtraining"
+Set $MinimumSpace$    = "10 MB"
+; the path were we find the product after the installation
+Set $InstallDir$      = "%ProgramFiles32Dir%\MiniTell"
+Set $LicenseRequired$ = "false"
+Set $LicensePool$     = "p_" + $ProductId$
+;Set $InstPrg$         = "FontReg.exe"
+Set $TmpPath$         = "%Systemdrive%\temp"
+; ----------------------------------------------------------------
+
+if not(HasMinimumSpace ("%SystemDrive%", $MinimumSpace$))
+   LogError "Not enough space on %SystemDrive%, " + $MinimumSpace$ + " on drive %SystemDrive% needed for " + $ProductId$
+   isFatalError "No Space"
+   ; Stop process and set installation status to failed
+else
+   comment "Show product picture"
+   ShowBitmap "%ScriptPath%\" + $ProductId$ + ".png" $ProductId$
+   
+   if FileExists("%ScriptPath%\delsub32.ins")
+      comment "Start uninstall sub section"
+      Sub "%ScriptPath%\delsub32.ins"
+   endif
+   
+   Message "Installing " + $ProductId$ + " ..."
+   
+   if $LicenseRequired$ = "true"
+      comment "Licensing required, reserve license and get license key"
+      Sub_get_licensekey
+   endif
+
+   DosInAnIcon_setpolicy winst /SysNative
+	DosInAnIcon_removal winst /SysNative
+	DosInAnIcon_install winst /SysNative
+     
+   comment "Start setup program"
+    Files_install
+    DosInAnIcon_comp_layer 
+    LinkFolder_install_64
+   
+   ;Files_install
+   ;DosInAnIcon_do /64Bit
+   ;Files_uninstall   
+
+endif
+
+
+
+[Files_install]
+copy -s %ScriptPath%\MiniTell %ProgramFiles32Dir%
+
+
+[DosInAnIcon_comp_layer]
+reg.exe Add "HKLM\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers" /v "%ProgramFiles32Dir%\MiniTell\MiniTell.exe" /d "WINXPSP3"
+
+
+[LinkFolder_install_64]
+set_basefolder common_desktopdirectory
+set_subfolder ""
+set_link
+   name: MiniTell
+   target: "%ProgramFiles32Dir%\MiniTell\MiniTell.exe"
+   parameters: ""
+   working_dir: "%ProgramFiles32Dir%\MiniTell\"
+   icon_file: "%ProgramFiles32Dir%\MiniTell\MiniTell.exe"
+   icon_index: 0
+end_link
+
+
+[Sub_get_licensekey]
+if opsiLicenseManagementEnabled
+   comment "License management is enabled and will be used"
+
+   comment "Trying to get a license key"
+   Set $LicenseKey$ = demandLicenseKey ($LicensePool$)
+   ; If there is an assignment of exactly one licensepool to the product the following call is possible:
+   ; Set $LicenseKey$ = demandLicenseKey ("", $ProductId$)
+   ;
+   ; If there is an assignment of a license pool to a windows software id, it is possible to use:
+   ; DefVar $WindowsSoftwareId$
+   ; $WindowsSoftwareId$ = "..."
+   ; Set $LicenseKey$ = demandLicenseKey ("", "", $WindowsSoftwareId$)
+   
+   DefVar $ServiceErrorClass$
+   set $ServiceErrorClass$ = getLastServiceErrorClass
+   comment "Error class: " + $ServiceErrorClass$
+   
+   if $ServiceErrorClass$ = "None"
+      comment "Everything fine, we got the license key '" + $LicenseKey$ + "'"
+   else
+      if $ServiceErrorClass$ = "LicenseConfigurationError"
+         LogError "Fatal: license configuration must be corrected"
+         LogError getLastServiceErrorMessage
+         isFatalError
+      else 
+         if $ServiceErrorClass$ = "LicenseMissingError"
+            LogError "Fatal: required license is not supplied"
+            isFatalError
+         endif
+      endif
+   endif
+else
+   LogError "Fatal: license required, but license management not enabled"
+   isFatalError
+endif

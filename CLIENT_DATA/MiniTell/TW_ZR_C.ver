@@ -1,0 +1,49 @@
+//Info: Sie können Ziffern mit den Tasten der Ziffernreihe in der 
+//Info: Alpha-Tastatur oder mit dem Ziffernblock eingeben. 
+//Info: In dieser Lerneinheit schreiben Sie die Ziffern 1, 2, 3
+//Info: mit den Tasten der Ziffernreihe.
+//Weg: 1
+//Teiltastei: 123
+a1afa a1afa a1afa 1afj 1afk 1afkk 1afö 1af1 1af1 1ad1 1as1
+//Volltastei
+1afa 1asf 1fdf fa1a fa1s 1afs fsa1 fda1 fds1 dsa1 1afa1
+
+//Weg: 3
+//Teiltastei: 123
+fs3s fs3s fs3s fs3s 3sfs 3sfa 3sfs 3sfa fds3 fds3 fds3
+
+//Volltastei
+öjs3 ljs3 kjs3 3sfl 3sfö 3sfj 3sf3 3af3 3af3 3fd3 3fd3
+
+//Weg: 2
+//Teiltastei: 123
+a2afa a2afa a2afa 2afj 2afk 2afkk 2afö 2af2 2af2 2ad2 2as2
+//Volltastei
+2afa 2asf 2fdf fa2a fa2s 2afs fsa2 fda2 fds2 dsa2 2afa2
+
+1af2af 3sf3 1a3sfa 1f3s 1f2d3sf 1f2d3sf 1a1a3sf 1a2a3sf
+
+//Info: 
+//Info: Die neuen Ziffern wenden Sie nun in Zahlen an.
+//Rasterzeile
+3 Paare, 33 Jahre, 32. Geburtstag, 10 Teilnehmer, 20 Tage, 37 m
+//Normalzeile
+3 Paare, 33 Jahre, 32. Geburtstag, 10 Teilnehmer, 20 Tage, 37 m
+
+//Rasterzeile
+80 EUR, 397 m, 3 260 EUR, 376 EUR, 10 Uhr, 12:11 Uhr, 02:25 Uhr
+//Normalzeile
+80 EUR, 397 m, 3 260 EUR, 376 EUR, 10 Uhr, 12:11 Uhr, 02:25 Uhr
+
+//Info: 
+//Info:Sie schreiben Sätze.
+//Normalzeile 
+Der Betrag von 459,60 EUR ist seit 03.12.02 zur Zahlung fällig.
+Der Betrag von 459,60 EUR ist seit 03.12.02 zur Zahlung fällig.
+
+Für 192 800 Einwohner gibt es jedoch nur 63 780 Kraftfahrzeuge.
+Für 192 800 Einwohner gibt es jedoch nur 63 780 Kraftfahrzeuge.
+
+Der Hersteller kann den Auftrag Nr. 6 210 in 4 Tagen ausführen.
+Der Hersteller kann den Auftrag Nr. 6 210 in 4 Tagen ausführen.
+//Ende

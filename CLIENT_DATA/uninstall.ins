@@ -1,0 +1,11 @@
+[Actions]
+requiredWinstVersion >= "4.11.3.6"
+SetLogLevel = 7
+
+Message "Lösche Desktop Verknüpfung für duplicate Display...."
+LinkFolder_delete
+
+[LinkFolder_delete]
+set_basefolder common_desktopdirectory
+set_subfolder ""
+delete_element "Bildschirm-Duplizieren"

@@ -1,0 +1,191 @@
+{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil Courier New;}{\f1\fnil\fcharset0 Courier New;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1031\f0\fs24 //Info: Es werden in dieser Einheit alle Ziffenwege behandelt.
+\par //Info: Nehmen Sie im Ziffernblock die Grundstellung ein:
+\par //Info: Zeigefinger = 4   Mittelfinger = 5   Ringfinger = 6
+\par //Info: Die Zeile beenden Sie mit der Eingabetaste (ENTER).
+\par //Info: Beginnen Sie mit der rot markierten Taste.
+\par \f1 //Ziffernblock\f0 
+\par 456 654 466 644 455 655 456 654 464 646 454 656 446 466 546
+\par //Info: 
+\par \f1 //Info: Fortlaufende Ziffernfolgen werden nicht wie Flie\'dftext erfasst,\f0 
+\par \f1 //Info: sondern - wie bei Tabellen \'fcblich - in einzelnen Zeilen. Daher\f0 
+\par //Info: beenden Sie solche Zeilen mit der Eingabetaste (ENTER).
+\par \f1 //Ziffernblock\f0 
+\par 645 464 646 454 656 446 466 546 456 654 644 455 655 456 654
+\par //Info: 
+\par //Info: Sie haben sicher bemerkt, dass das Programm nur auf die Taste 
+\par //Info: reagiert, die rot markiert ist. Versuchen Sie dennoch Fehler zu 
+\par \f1 //Info: vermeiden, das f\'f6rdert die Sicherheit und die Schreibfertigkeit.
+\par //Ziffernblock\f0 
+\par 546 564 556 454 544 566 464 654 546 456 654 564 456 455 645
+\par 
+\par //Info: 
+\par //Info: Zu den Tasten der Grundstellung erarbeiten Sie nun den 
+\par //Info: Fingerweg zur 8 mit dem Mittelfinger nach oben,
+\par \f1 //Ziffernblock\f0  
+\par \f1 858\f0  585 4585 854 85456 6458 6458 8685 8584 6584 6584 84568
+\par //Info: 
+\par //Info: Die Taste 7 bedienen Sie mit dem Zeigefinger.
+\par \f1 //Ziffernblock\f0 
+\par 7456 47456 74856 74856 85746 85745 47586 58476 47586 7854 8745
+\par //Info:
+\par \f1 //Info: F\'fcr die Taste 9 verwenden Sie den Ringfinger.
+\par //Ziffernblock\f0 
+\par \f1 96\f0 54 69654 96854 96854 85964 78596 78596 74965 96745 7496 4769
+\par 7485 96854 85967 74569 96547 87496 94675 76495 79858 7946 7896
+\par 
+\par //Info: Sie erfassen Zahlenfolgen mit Standard-Tabstopps.
+\par //Info: 
+\par \f1 //Info: - Nach jeder Zahl dr\'fccken Sie mit der linken Hand die Tab-Taste \f0 
+\par //Info:       ODER mit dem Damen der rechten Hand die "Pfeiltaste nach rechts".
+\par //Info: - Die Zeile beenden Sie mit der Eingabetaste (ENTER).
+\par \f1 //ziffernblock\f0 
+\par 4645\tab 6456\tab 5646\tab 4546\tab 5464\tab 6564\tab 4564\tab 5645\tab 4654
+\par 4745\tab 6547\tab 4746\tab 5474\tab 7475\tab 6745\tab 5747\tab 7564\tab 6547
+\par 5684\tab 5648\tab 4654\tab 6487\tab 4546\tab 7485\tab 4645\tab 6458\tab 5647
+\par 
+\par //Info: Sie erfassen Zahlenfolgen wie in der WORD-Tabelle.
+\par //Info: 
+\par \f1 //Info: - Nach jeder Zahl dr\'fccken Sie die Tab- oder Rechts-Pfeil-Taste. \f0 
+\par \f1 //Info: - Auch am Zeilenende dr\'fccken Sie die Tab- oder Rechts-Pfeil-Taste.
+\par //Ziffernblock\f0 
+\par 4645\tab 6456\tab 5646\tab 4546\tab 5464\tab 6564\tab 4564\tab 5645\tab 4654\f1\tab\f0 
+\par 4745\tab 6547\tab 4746\tab 5474\tab 7475\tab 6745\tab 5747\tab 7564\tab 6547\f1\tab\f0 
+\par 6964\tab 9646\tab 9649\tab 8596\tab 7496\tab 9685\tab 9674\tab 7649\tab 9467
+\par 
+\par //Info: Sie erfassen Zahlen in Spalten. 
+\par //Info:  
+\par \f1 //Info: - Nach jeder Zahl dr\'fccken Sie die Enter-Taste. \f0 
+\par \f1 //Info: - Bei Rechenmaschinen und Kassen dr\'fccken \f0 
+\par //Info:   Sie die Plus-Taste zur fortgesetzten Addition.
+\par \f1 //Ziffernblock\f0 
+\par 4645
+\par 6456
+\par 5646
+\par 4546
+\par 4745
+\par 6547
+\par 4746
+\par 5474
+\par 7475
+\par 5648
+\par 4654
+\par 6487
+\par 6964
+\par 9646
+\par 9649
+\par 8596
+\par 7496
+\par 
+\par //Info:
+\par //Info: Sie erarbeiten die Fingerwege zu den Tasten 1, 2, 3.
+\par //Info:  
+\par //Info: Beginnen Sie mit der \f1 Ziffer 2 und verwenden Sie den Mittelfinger\f0 .
+\par \f1 //Ziffernblock\f0 
+\par \f1 25\f0 46\f1 5\f0  52546 52546 25462 25465 25462 25462 25462 52546\f1 
+\par //Info:
+\par //Info: Die Ziffer 1 schreiben Sie mit dem Zeigefinger.
+\par //Ziffernblock\f0 
+\par \f1 14\f0 525 74152 71852 71825 5241\f1 5\f0  2\f1 1\f0 5\f1 41\f0  425\f1 18 12456 71825\f0 
+\par \f1 //Info:
+\par //Info: Die Ziffer 3 schreiben Sie mit dem Ringfinger.
+\par //Ziffernblock\f0 
+\par \f1 36\f0 463 45636 63654 36543 36543 56363 36543 63636 43643
+\par 36857 968\f1 1\f0 7 78369 7136\f1 1\f0  71982 95243 96541 9\f1 1\f0 313 8379\f1 1\f0 
+\par 
+\par 63636 63636 45636 45636 3654\f1 1\f0  4\f1 1\f0 636 63643 63643 36453
+\par \f1 1\f0 5263 45263 36963 63\f1 1\f0 78 96385 35843 63687 14536 63\f1 1\f0 3\f1 1\f0 
+\par 
+\par 63936 63\f1 414\f0  45638 4563\f1 1\f0  39646 36\f1 1\f0 39 3\f1 1\f0 63\f1 1\f0  59649 4\f1 2\f0 651
+\par 
+\par //Info: 
+\par //Info: Die Taste 0 bedienen Sie mit dem Zeigefinger.
+\par //Info: 
+\par \f1 //Info: Sie k\'f6nnen daf\'fcr auch den Daumen verwenden.\f0 
+\par //Info: Probieren Sie, welcher Finger Ihnen angenehmer ist.
+\par \f1 //Ziffernblock\f0 
+\par \f1 0\f0 4040 50505 6060 7400 7414 0605 0406 70608 89040 00470
+\par 74040 85050 9090 7480 8540 9850 7409 96008 85400 96540
+\par 
+\par 7070 8080 9090 4040 5050 6060 4007 5009 6008 7009 9008
+\par 6086 5047 6506 7406 5807 6505 4606 4046 8706 9909 7570
+\par 
+\par //Info: 
+\par //Info: Das Komma schreiben Sie mit dem Ringfinger oder mit dem 
+\par \f1 //Info: kleinen Finger. Probieren Sie, was Ihnen leichter f\'e4llt.
+\par //Ziffernblock\f0 
+\par \f1 ,\f0 4563,36 463,3 56,6 456,6 756,6 856,6 96,6 123,64 23,3654 456,36
+\par 
+\par 63,636 6,3636 45,636 4563,6 36,543 45,636 63,643 63,643 364,53
+\par 4526,3 4526,3 36,963 636,78 96,385 3584,3 6368,7 14,536 63,030
+\par 
+\par //Info: 
+\par //Info: Sie erfassen Zahlenfolgen mit Standard-Tabstopps.
+\par //Info: 
+\par \f1 //Info: - Nach jeder Zahl dr\'fccken Sie die Tab- oder Rechts-Pfeil-Taste.\f0 
+\par //Info: - Die Zeile beenden Sie mit der Eingabetaste (ENTER).
+\par \f1 //Ziffernblock\f0 
+\par 748569\tab 7410,26\tab 853410\tab 654,134\tab 857410\tab 56,4217\tab 314568
+\par 782564\tab 8675,43\tab 194678\tab 409,785\tab 834571\tab 10,2785\tab 871227
+\par 
+\par //Info: 
+\par //Info: Sie erfassen Zahlenfolgen wie in der WORD-Tabelle.
+\par //Info: 
+\par \f1 //Info: - Nach jeder Zahl dr\'fccken Sie die Tab- oder Rechts-Pfeil-Taste. \f0 
+\par \f1 //Info: - Auch am Zeilenende dr\'fccken Sie eine dieser Tasten.
+\par //Ziffernblock\f0 
+\par 748569\tab 741,026\tab 853410\tab 6,54134\tab 85,7410\tab 564217\tab 314,568\f1\tab\f0 
+\par 616036\tab 19080,4\tab 710856\tab 287,061\tab 3486,74\tab 923587\tab 762,068
+\par 
+\par //Info: Sie erfassen Zahlen in Spalten. 
+\par //Info:  
+\par \f1 //Info: - Nach jeder Zahl dr\'fccken Sie die Enter-Taste. \f0 
+\par \f1 //Info: - Bei Rechenmaschinen und Kassen dr\'fccken \f0 
+\par //Info:   Sie die Plus-Taste zur fortgesetzten Addition.
+\par \f1 //Ziffernblock\f0 
+\par 6541,04
+\par 8524,10
+\par 9145,68
+\par 7895,64
+\par 7138,56
+\par 1870,62
+\par 8675,40
+\par 1246,78
+\par 6499,74
+\par 6163,36
+\par 4235,87
+\par 7413,46
+\par 8564,12
+\par 4097,85
+\par 7692,68
+\par 8675,43
+\par 8645,73
+\par 1097,85
+\par 8712,39
+\par 
+\par //Info: 
+\par \f1 //Info: Bei den folgenden \'dcbungen werden die Ziffern in Zeilen dargestellt.\f0 
+\par //Info: 
+\par //Info: Wenn der Leerraum nach einer Zahlenfolge mit > gekennzeichnet ist,
+\par \f1 //Info: dr\'fccken Sie die Tabtaste oder die Rechts-Pfeil-Taste.
+\par //Normalzeile\f0 
+\par 41356 414,25 4121 414,3 541,9 4101 4134 654,94 653,04 409,41
+\par 74904 64,712 6790 1,026 314,9 0146 4928 852,10 5440,4 823,10
+\par 
+\par 47452\tab 47,4569\tab 47496\tab 474,65\tab 47466\tab 4745,3\tab 47495
+\par 47453\tab 47,4456\tab 47524\tab 475,64\tab 43564\tab 4762,4\tab 47559
+\par 
+\par 744612\tab 4766,25\tab 473526\tab 474356\tab 767,450\tab 76,7251\tab 797550
+\par 665473\tab 4460,70\tab 563574\tab 564795\tab 679,556\tab 47,7954\tab 727567
+\par 
+\par 7482204\tab 7419,2461\tab 856420\tab 654104\tab 8574120\tab 5648378\tab 9145,68
+\par 7883344\tab 8679301\tab 114638\tab 409,785\tab 8645710\tab 1027858\tab 2711,07
+\par //Info: 
+\par \f1 //Info: Sie k\'f6nnen weitere \'dcbungen direkt in WORD und EXCEL\f0 
+\par //Info: nach den Angaben im Buch PC-Tastaturschulung mit Word
+\par //Info: machen. 
+\par //Ende
+\par 
+\par }
+ 
